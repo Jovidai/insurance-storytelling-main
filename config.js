@@ -1,7 +1,7 @@
 var config = {
     style: 'mapbox://styles/jovidai/cm4bm7bmu012601slaml3b4jj',
     // leave commented to use Mapbox Standard Style
-    accessToken: 'pk.eyJ1Ijoiam92aWRhaSIsImEiOiJjbHhraHIyeGUwMW9yMmpvZjl2NjB5ZDU1In0.40trva_cvnBUORpY1dgkSg',
+    accessToken: 'pk.eyJ1Ijoiam92aWRhaSIsImEiOiJjbTRidWQ3am8wNDNtMm1wcjJ1MnM1OGh6In0.EG2bgI0iRxazKaZS1rSrBg',
     showMarkers: false,
     markerColor: '#3FB1CE',
     //projection: 'equirectangular',
