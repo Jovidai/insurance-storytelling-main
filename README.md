@@ -1,4 +1,4 @@
-- [Interactive Storytelling](#interactive-storytelling)
+<!-- - [Interactive Storytelling](#interactive-storytelling)
   - [Live Demo](#live-demo)
   - [Prerequisites](#prerequisites)
   - [Getting Started](#getting-started)
@@ -302,4 +302,4 @@ BSD 3-Clause License
 - [A River Drained: Kontinentalist](https://cdn-images.kontinentalist.com/static-html/food-security-mekong-river-hydropower-dam-climate-change/index.html)
 - [Climate Gentrification and its impact on New York City: Judy Huynh](https://www.climategentrification.info/)
 
-[mapbox.com/resources#solutions](https://www.mapbox.com/resources#solutions)
+[mapbox.com/resources#solutions](https://www.mapbox.com/resources#solutions) -->
