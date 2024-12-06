@@ -138,7 +138,7 @@ var config = {
             hidden: false,
             title: 'Los Angeles County',
             // image: './assets/san-fran.jpeg',
-            description: 'According to the California Department of Insurance, Los Angeles County has the highest number of non-renewals among all California counties from 2015 to 2024, with approximately 1.43 million non-renewed policies and a non-renewal rate of 8.80 per 100 policies.',
+            description: 'According to the California Department of Insurance, Los Angeles County has the highest number of non-renewals among all California counties from 2015 to 2024, with approximately 1,431,500 non-renewed policies and a non-renewal rate of 8.80 per 100 policies.',
             location: {
                 center: [-118.38606, 33.99058],
                 zoom: 9,
@@ -174,7 +174,7 @@ var config = {
             hidden: false,
             title: 'Riverside County',
             // image: './assets/washington-dc.jpg',
-            description: 'Riverside County is second in the state, with around 693.4 thousand non-renewed policies and a non-renewal rate of 12.39 per 100 policies.',
+            description: 'Riverside County is second in the state, with around 693,400 non-renewed policies and a non-renewal rate of 12.39 per 100 policies.',
             location: {
                 center: [-117.40135, 33.91203],
                 zoom: 9,
@@ -205,7 +205,7 @@ var config = {
             hidden: false,
             title: 'San Diego County',
             // image: './assets/geneva.jpg',
-            description: 'San Diego County ranks third in California, with about 612.2 thousand non-renewed policies and a non-renewal rate of 9.98 per 100 policies.',
+            description: 'San Diego County ranks third in California, with about 612,100 non-renewed policies and a non-renewal rate of 9.98 per 100 policies.',
             location: {
                 center: [-117.06722, 32.80364],
                 zoom: 9,
@@ -230,7 +230,7 @@ var config = {
             hidden: false,
             title: 'Santa Clara County',
             // image: './assets/buenos-aires.jpg',
-            description: 'Meawhile, in the Bay Area, three major counties have the highest non-renewals from 2015 to 2024. Santa Clara County has about 301.9 thousand non-renewed policies, with a non-renewal rate of 8.55 per 100 policies.',
+            description: 'Meanwhile, in the Bay Area, three major counties have the highest non-renewals from 2015 to 2024. Santa Clara County has about 301,900 non-renewed policies, with a non-renewal rate of 8.55 per 100.',
             location: {
                 center: [-121.96721, 37.37098],
                 zoom: 9,
@@ -255,7 +255,7 @@ var config = {
             hidden: false,
             title: 'Alameda County',
             // image: './assets/buenos-aires.jpg',
-            description: 'Alameda Clara County has about 278.8 thousand non-renewed policies, with a non-renewal rate of 8.79 per 100 policies.',
+            description: 'Alameda Clara County has about 278,800 non-renewed policies, with a non-renewal rate of 8.79 per 100 policies.',
             location: {
                 center: [-122.28931, 37.72383],
                 zoom: 9,
@@ -280,7 +280,7 @@ var config = {
             hidden: false,
             title: 'Contra Costa County',
             // image: './assets/buenos-aires.jpg',
-            description: 'Contra Costa County has about 250.3 thousand non-renewed policies, with a non-renewal rate of 9.38 per 100 policies.',
+            description: 'Contra Costa County has about 250,335 non-renewed policies, with a non-renewal rate of 9.38 per 100 policies.',
             location: {
                 center: [-121.99497, 37.91063],
                 zoom: 9,
