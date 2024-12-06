@@ -46,7 +46,18 @@ var config = {
                 //     duration: 1000
                 // }
             ],
-            onChapterExit: []
+            onChapterExit: [
+                //                 {
+                //     layer: 'ca-county-boundaries',
+                //     opacity: 1,
+                //     duration: 2000
+                // },
+                // {
+                //     layer: 'California_Housing_Insurance_-dbgkla',
+                //     opacity: 1,
+                //     duration: 2000
+                // },
+            ]
         },
         {
             id: 'zero-identifier',
@@ -80,7 +91,9 @@ var config = {
                 //     duration: 2000
                 // },
             ],
-            onChapterExit: []
+            onChapterExit: [
+                
+            ]
         },
 
 
@@ -129,17 +142,17 @@ var config = {
             location: {
                 center: [-118.38606, 33.99058],
                 zoom: 9,
-                pitch: 10,
+                pitch: 35,
                 bearing: 0
             },
             mobileLocation: {
                 center: [-118.38606, 33.99058],
                 zoom: 9, // Adjusted zoom level for mobile
-                pitch: 10,
+                pitch: 35,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 {
@@ -149,10 +162,10 @@ var config = {
                 }
             ],
             onChapterExit: [
-                // {
-                //     layer: 'layer-name',
+                {
+                    layer: 'la-county-boundary-0om022',
                 //     opacity: 0
-                // }
+                }
             ]
         },
         {
@@ -165,7 +178,7 @@ var config = {
             location: {
                 center: [-117.40135, 33.91203],
                 zoom: 9,
-                pitch: 0,
+                pitch: 35,
                 bearing: 0,
                 // flyTo additional controls-
                 // These options control the flight curve, making it move
@@ -177,11 +190,11 @@ var config = {
             mobileLocation: {
                 center: [-117.40135, 33.91203],
                 zoom: 8, // Adjusted zoom level for mobile
-                pitch: 10,
+                pitch: 35,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
@@ -196,13 +209,13 @@ var config = {
             location: {
                 center: [-117.06722, 32.80364],
                 zoom: 9,
-                pitch: 10,
+                pitch: 35,
                 bearing: 0.00
             },
             mobileLocation: {
                 center: [-117.06722, 32.80364],
                 zoom: 9, // Adjusted zoom level for mobile
-                pitch: 10,
+                pitch: 35,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
@@ -221,13 +234,13 @@ var config = {
             location: {
                 center: [-121.96721, 37.37098],
                 zoom: 9,
-                pitch: 10,
+                pitch: 35,
                 bearing: 0
             },
             mobileLocation: {
                 center: [-121.96721, 37.37098],
                 zoom: 9, // Adjusted zoom level for mobile
-                pitch: 10,
+                pitch: 35,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
@@ -246,13 +259,13 @@ var config = {
             location: {
                 center: [-122.28931, 37.72383],
                 zoom: 9,
-                pitch: 10,
+                pitch: 35,
                 bearing: 0
             },
             mobileLocation: {
                 center: [-122.28931, 37.72383],
                 zoom: 9, // Adjusted zoom level for mobile
-                pitch: 10,
+                pitch: 35,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
@@ -271,13 +284,13 @@ var config = {
             location: {
                 center: [-121.99497, 37.91063],
                 zoom: 9,
-                pitch: 10,
+                pitch: 35,
                 bearing: 0
             },
             mobileLocation: {
                 center: [-121.99497, 37.91063],
                 zoom: 9, // Adjusted zoom level for mobile
-                pitch: 10,
+                pitch: 35,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
