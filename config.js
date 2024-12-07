@@ -16,9 +16,10 @@ var config = {
     theme: 'dark',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
-    // title: 'Your Title Goes Here',
+    // title: 'Home insurance non-renewals by county',
     // subtitle: 'The Storytelling Template helps you create an awesome animated map story with ease.',
     // byline: 'By a I.M. Amapper',
+    // footer: 'Map by Jovi Dai - Bay Area News Group',
     // footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
         {
