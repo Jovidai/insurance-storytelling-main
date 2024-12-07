@@ -136,7 +136,7 @@ var config = {
                 },
                 {
                     layer: 'ca-housing-insurance',
-                    opacity: .71,
+                    opacity: .8,
                     duration: 1000
                 },
             ],
@@ -173,7 +173,7 @@ var config = {
                 },
                 {
                     layer: 'ca-housing-insurance',
-                    opacity: .71,
+                    opacity: .8,
                     duration: 1000
                 },
                 {
@@ -226,7 +226,7 @@ var config = {
                 },
                 {
                     layer: 'ca-housing-insurance',
-                    opacity: .71,
+                    opacity: .8,
                     duration: 1000
                 },
                 {
@@ -273,7 +273,7 @@ var config = {
                 },
                 {
                     layer: 'ca-housing-insurance',
-                    opacity: .71,
+                    opacity: .8,
                     duration: 1000
                 },
                 {
@@ -320,7 +320,7 @@ var config = {
                 },
                 {
                     layer: 'ca-housing-insurance',
-                    opacity: .71,
+                    opacity: .8,
                     duration: 1000
                 },
                 {
@@ -368,7 +368,7 @@ var config = {
                 },
                 {
                     layer: 'ca-housing-insurance',
-                    opacity: .71,
+                    opacity: .8,
                     duration: 1000
                 },
                 {
@@ -415,7 +415,7 @@ var config = {
                 },
                 {
                     layer: 'ca-housing-insurance',
-                    opacity: .71,
+                    opacity: .8,
                     duration: 1000
                 },
                 {
@@ -432,7 +432,7 @@ var config = {
                 },
                 {
                     layer: 'ca-housing-insurance',
-                    opacity: .71,
+                    opacity: .8,
                     duration: 1000
                 },
                 {
