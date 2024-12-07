@@ -132,12 +132,12 @@ var config = {
                 {
                     layer: 'ca-county-boundaries',
                     opacity: .8,
-                    duration: 1000
+                    duration: 2000
                 },
                 {
                     layer: 'ca-housing-insurance',
                     opacity: .71,
-                    duration: 1000
+                    duration: 2000
                 },
             ],
             onChapterExit: []
@@ -352,7 +352,7 @@ var config = {
                 bearing: 0
             },
             mobileLocation: {
-                center: [-121.8885, 37.8940],
+                center: [-121.7885, 37.7940],
                 zoom: 9, // Adjusted zoom level for mobile
                 pitch: 35,
                 bearing: 0
