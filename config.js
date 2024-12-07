@@ -352,7 +352,7 @@ var config = {
                 bearing: 0
             },
             mobileLocation: {
-                center: [-121.8885, 37.5940],
+                center: [-121.8885, 37.8940],
                 zoom: 9, // Adjusted zoom level for mobile
                 pitch: 35,
                 bearing: 0
