@@ -339,7 +339,7 @@ var config = {
         },
         {
             id: 'sixth-chapter',
-            alignment: 'left',
+            alignment: 'fully',
             hidden: false,
             title: 'Alameda County',
             // image: './assets/buenos-aires.jpg',
