@@ -345,7 +345,7 @@ var config = {
             // image: './assets/buenos-aires.jpg',
             description: 'Alameda Clara County has about 278,800 non-renewed policies, with a non-renewal rate of 8.79 per 100 policies.',
             location: {
-                center: [-121.8885, 37.7940],
+                center: [-121.7885, 37.7940],
                 // [-121.7195, 37.6017]
                 zoom: 9,
                 pitch: 35,
