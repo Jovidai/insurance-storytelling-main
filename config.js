@@ -132,12 +132,12 @@ var config = {
                 {
                     layer: 'ca-county-boundaries',
                     opacity: .8,
-                    duration: 2000
+                    duration: 1000
                 },
                 {
                     layer: 'ca-housing-insurance',
                     opacity: .71,
-                    duration: 2000
+                    duration: 1000
                 },
             ],
             onChapterExit: []
