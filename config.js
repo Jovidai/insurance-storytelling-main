@@ -426,10 +426,59 @@ var config = {
             ],
             onChapterExit: [
                 {
+                    layer: 'ca-county-boundaries',
+                    opacity: .8,
+                    duration: 1000
+                },
+                {
+                    layer: 'ca-housing-insurance',
+                    opacity: .71,
+                    duration: 1000
+                },
+                {
                     layer: 'contra-costa-county-boundary',
                     opacity: 0,
-                    duration: 1000
+                    duration: 2000
                 }
+            ]
+        },
+        {
+            id: 'lasttwo-identifier',
+            alignment: 'left',
+            hidden: true,
+            location: {
+                center: [-119.32214, 37.41801],
+                zoom: 4.65,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mobileLocation: {
+                center: [-119.32214, 37.41801],
+                zoom: 4.65, // Adjusted zoom level for mobile
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: '',
+                //     opacity: .0,
+                //     duration: 1000
+                // }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'ca-county-boundaries',
+                    opacity: 0,
+                    duration: 1000
+                },
+                {
+                    layer: 'ca-housing-insurance',
+                    opacity: 0,
+                    duration: 1000
+                },
             ]
         },
         {
@@ -450,7 +499,7 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
-            callback: 'hideLegend',
+            callback: '',
             onChapterEnter: [
                 // {
                 //     layer: '',
@@ -459,16 +508,16 @@ var config = {
                 // }
             ],
             onChapterExit: [
-                {
-                    layer: 'ca-county-boundaries',
-                    opacity: 0,
-                    duration: 1000
-                },
-                {
-                    layer: 'ca-housing-insurance',
-                    opacity: 0,
-                    duration: 1000
-                },
+                // {
+                //     layer: 'ca-county-boundaries',
+                //     opacity: 0,
+                //     duration: 1000
+                // },
+                // {
+                //     layer: 'ca-housing-insurance',
+                //     opacity: 0,
+                //     duration: 1000
+                // },
             ]
         },
 
