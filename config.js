@@ -4,12 +4,13 @@ var config = {
     accessToken: 'pk.eyJ1Ijoiam92aWRhaSIsImEiOiJjbHhraHIyeGUwMW9yMmpvZjl2NjB5ZDU1In0.40trva_cvnBUORpY1dgkSg',
     showMarkers: false,
     markerColor: '#3FB1CE',
+    // attributionControl: false,
     //projection: 'equirectangular',
     //Read more about available projections here
     //https://docs.mapbox.com/mapbox-gl-js/example/projections/
     inset: true,
     insetOptions: {
-        markerColor: 'orange'
+        markerColor: '#f2b221'
     },
     // insetPosition: 'bottom-right',
     theme: 'dark',
