@@ -134,7 +134,7 @@ var config = {
 
         {
             id: 'second-identifier',
-            alignment: 'fully',
+            alignment: 'left',
             hidden: false,
             title: 'Los Angeles County',
             // image: './assets/san-fran.jpeg',
@@ -170,13 +170,13 @@ var config = {
         },
         {
             id: 'third-identifier',
-            alignment: 'fully',
+            alignment: 'right',
             hidden: false,
             title: 'Riverside County',
             // image: './assets/washington-dc.jpg',
             description: 'Riverside County is second in the state, with around 693,400 non-renewed policies and a non-renewal rate of 12.39 per 100 policies.',
             location: {
-                center: [-117.40135, 33.91203],
+                center: [-117.396156, 33.953350],
                 zoom: 9,
                 pitch: 35,
                 bearing: 0,
@@ -201,7 +201,7 @@ var config = {
         },
         {
             id: 'four-identifier',
-            alignment: 'fully',
+            alignment: 'left',
             hidden: false,
             title: 'San Diego County',
             // image: './assets/geneva.jpg',
@@ -251,13 +251,13 @@ var config = {
         },
         {
             id: 'sixth-chapter',
-            alignment: 'fully',
+            alignment: 'left',
             hidden: false,
             title: 'Alameda County',
             // image: './assets/buenos-aires.jpg',
             description: 'Alameda Clara County has about 278,800 non-renewed policies, with a non-renewal rate of 8.79 per 100 policies.',
             location: {
-                center: [-122.28931, 37.72383],
+                center: [-121.7195, 37.6017],
                 zoom: 9,
                 pitch: 35,
                 bearing: 0
