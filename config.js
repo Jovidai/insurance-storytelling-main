@@ -49,15 +49,15 @@ var config = {
                 // }
             ],
             onChapterExit: [
-                //                 {
+                // {
                 //     layer: 'ca-county-boundaries',
-                //     opacity: 1,
-                //     duration: 2000
+                //     opacity: 0,
+                //     // duration: 2000
                 // },
                 // {
-                //     layer: 'California_Housing_Insurance_-dbgkla',
-                //     opacity: 1,
-                //     duration: 2000
+                //     layer: 'ca-housing-insurance',
+                //     opacity: 0,
+                //     // duration: 2000
                 // },
             ]
         },
@@ -83,18 +83,27 @@ var config = {
             callback: '',
             onChapterEnter: [
                 // {
-                //     layer: 'CA_County_Boundaries-9dvvmq',
+                //     layer: 'ca-county-boundaries',
                 //     opacity: .8,
                 //     duration: 2000
                 // },
                 // {
-                //     layer: 'California_Housing_Insurance_-dbgkla',
-                //     opacity: .8,
+                //     layer: 'ca-housing_insurance',
+                //     opacity: .71,
                 //     duration: 2000
                 // },
             ],
             onChapterExit: [
-                
+                {
+                    layer: 'ca-county-boundaries',
+                    opacity: 0,
+                    duration: 1000
+                },
+                {
+                    layer: 'ca-housing-insurance',
+                    opacity: 0,
+                    duration: 1000
+                },
             ]
         },
 
@@ -120,16 +129,16 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                // {
-                //     layer: 'CA_County_Boundaries-9dvvmq',
-                //     opacity: .8,
-                //     duration: 2000
-                // },
-                // {
-                //     layer: 'California_Housing_Insurance_-dbgkla',
-                //     opacity: .8,
-                //     duration: 2000
-                // },
+                {
+                    layer: 'ca-county-boundaries',
+                    opacity: .8,
+                    duration: 1000
+                },
+                {
+                    layer: 'ca-housing-insurance',
+                    opacity: .71,
+                    duration: 1000
+                },
             ],
             onChapterExit: []
         },
@@ -158,15 +167,26 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'la-county-boundary-0om022',
+                    layer: 'ca-county-boundaries',
                     opacity: .8,
                     duration: 1000
+                },
+                {
+                    layer: 'ca-housing-insurance',
+                    opacity: .71,
+                    duration: 1000
+                },
+                {
+                    layer: 'la-county-boundary',
+                    opacity: .9,
+                    duration: 2000
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'la-county-boundary-0om022',
-                //     opacity: 0
+                    layer: 'la-county-boundary',
+                    opacity: 0,
+                    duration: 1000
                 }
             ]
         },
@@ -198,8 +218,30 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'ca-county-boundaries',
+                    opacity: .8,
+                    duration: 1000
+                },
+                {
+                    layer: 'ca-housing-insurance',
+                    opacity: .71,
+                    duration: 1000
+                },
+                {
+                    layer: 'riverside-county-boundary',
+                    opacity: .9,
+                    duration: 2000
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'riverside-county-boundary',
+                    opacity: 0,
+                    duration: 1000
+                }
+            ]
         },
         {
             id: 'four-identifier',
@@ -223,8 +265,30 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'ca-county-boundaries',
+                    opacity: .8,
+                    duration: 1000
+                },
+                {
+                    layer: 'ca-housing-insurance',
+                    opacity: .71,
+                    duration: 1000
+                },
+                {
+                    layer: 'san-diego-county-boundary',
+                    opacity: .9,
+                    duration: 2000
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'san-diego-county-boundary',
+                    opacity: 0,
+                    duration: 1000
+                }
+            ]
         },
         {
             id: 'fifth-chapter',
@@ -248,8 +312,30 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'ca-county-boundaries',
+                    opacity: .8,
+                    duration: 1000
+                },
+                {
+                    layer: 'ca-housing-insurance',
+                    opacity: .71,
+                    duration: 1000
+                },
+                {
+                    layer: 'santa-clara-county-boundary',
+                    opacity: .9,
+                    duration: 2000
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'santa-clara-county-boundary',
+                    opacity: 0,
+                    duration: 1000
+                }
+            ]
         },
         {
             id: 'sixth-chapter',
@@ -273,8 +359,30 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'ca-county-boundaries',
+                    opacity: .8,
+                    duration: 1000
+                },
+                {
+                    layer: 'ca-housing-insurance',
+                    opacity: .71,
+                    duration: 1000
+                },
+                {
+                    layer: 'alameda-county-boundary',
+                    opacity: .9,
+                    duration: 2000
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'alameda-county-boundary',
+                    opacity: 0,
+                    duration: 1000
+                }
+            ]
         },
         {
             id: 'seventh-chapter',
@@ -298,8 +406,30 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'ca-county-boundaries',
+                    opacity: .8,
+                    duration: 1000
+                },
+                {
+                    layer: 'ca-housing-insurance',
+                    opacity: .71,
+                    duration: 1000
+                },
+                {
+                    layer: 'contra-costa-county-boundary',
+                    opacity: .9,
+                    duration: 2000
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'contra-costa-county-boundary',
+                    opacity: 0,
+                    duration: 1000
+                }
+            ]
         },
         {
             id: 'last-identifier',
@@ -321,13 +451,24 @@ var config = {
             rotateAnimation: false,
             callback: 'hideLegend',
             onChapterEnter: [
-                {
-                    layer: 'percent-positive-price-difference',
-                    opacity: .0,
-                    duration: 1000
-                }
+                // {
+                //     layer: '',
+                //     opacity: .0,
+                //     duration: 1000
+                // }
             ],
-            onChapterExit: []
+            onChapterExit: [
+                {
+                    layer: 'ca-county-boundaries',
+                    opacity: 0,
+                    duration: 1000
+                },
+                {
+                    layer: 'ca-housing-insurance',
+                    opacity: 0,
+                    duration: 1000
+                },
+            ]
         },
 
     ]
