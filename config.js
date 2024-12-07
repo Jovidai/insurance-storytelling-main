@@ -134,7 +134,7 @@ var config = {
 
         {
             id: 'second-identifier',
-            alignment: 'left',
+            alignment: 'fully',
             hidden: false,
             title: 'Los Angeles County',
             // image: './assets/san-fran.jpeg',
@@ -170,7 +170,7 @@ var config = {
         },
         {
             id: 'third-identifier',
-            alignment: 'right',
+            alignment: 'fully',
             hidden: false,
             title: 'Riverside County',
             // image: './assets/washington-dc.jpg',
@@ -201,7 +201,7 @@ var config = {
         },
         {
             id: 'four-identifier',
-            alignment: 'left',
+            alignment: 'fully',
             hidden: false,
             title: 'San Diego County',
             // image: './assets/geneva.jpg',
@@ -251,7 +251,7 @@ var config = {
         },
         {
             id: 'sixth-chapter',
-            alignment: 'left',
+            alignment: 'fully',
             hidden: false,
             title: 'Alameda County',
             // image: './assets/buenos-aires.jpg',
