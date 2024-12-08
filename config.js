@@ -106,8 +106,6 @@ var config = {
                 },
             ]
         },
-
-
         {
             id: 'first-identifier',
             alignment: 'left',
